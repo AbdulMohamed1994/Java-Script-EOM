@@ -1,0 +1,73 @@
+*@import url('https://fonts.googleapis.com/css2?family=Manuale:ital,wght@0,400;0,500;0,700;1,600&family=Vidaloka&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text text-decoration: none;
+}
+
+/* Styling the Navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: :15px 0;
+    background: black;
+    font-family: sans-serif;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* Home Styling */
+.home{
+    display: flex;
+    background: url("/home/user/Documents/abdul JS EOM/mountain-html/tm-0475e39e10f.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: sans-serif;
+}
+
+.home max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
